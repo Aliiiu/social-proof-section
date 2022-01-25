@@ -1,0 +1,258 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.top {
+    display: flex;
+    padding: 20px;
+}
+
+.desc {
+    margin-right: 140px;
+    width: 35%;
+}
+
+.desc > h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.desc > p {
+    font-family: 'Spartan';
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 480px;
+    padding: 20px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+}
+
+.rate > h2 {
+    margin-right: 0px
+}
+
+.rate_2 {
+    margin-left: 35px;
+}
+
+.rate_3 {
+    margin-left: 57px;
+}
+
+h2 {
+    font-family: 'Spartan';
+    font-size: 18px;
+}
+
+.stars {
+    margin-right: 40px;
+}
+
+.card_component {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading > img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 35px;
+}
+
+.heading .name_tag > h2 {
+    font-size: 14px;    
+    color: hsl(0, 0%, 100%);
+    font-family: 'Spartan';
+}
+
+.heading .name_tag > p {
+    color: hsl(333, 80%, 67%);
+    font-family: 'Spartan';
+    font-size: 14px;   
+    margin-top: 5px;
+}
+
+.card_desc > p {
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card_one {
+    margin-top: 10px;
+}
+.card_two {
+    margin-top: 40px;
+}
+
+.card_three {
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 680px) {
+
+    main {
+        max-width: 350px;
+        margin: 0 auto;
+        width: 85%;
+        padding: 0px;
+        
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 60px;
+    }
+
+    .desc > h1 {
+        font-family: 'Spartan', sans-serif;
+        font-size: 2.0rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+        color: hsl(300, 43%, 22%);
+        text-align: center;
+    }
+
+    .desc > p {
+        font-family: 'Spartan';
+        font-size: 15px;
+        line-height: 1.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .rate {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .stars {
+        margin-bottom: 10px;
+    }
+
+    .rate_2, .rate_3 {
+        margin-left: 0px;
+    }
+
+    .card_component {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .card {
+        border-radius: 10px;
+        padding: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: hsl(300, 43%, 22%);
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+
+    .heading .name_tag > h2 {
+        font-size: 14px;    
+        color: hsl(0, 0%, 100%);
+        font-family: 'Spartan';
+        margin-bottom: 0px;
+    }
+    
+    .heading .name_tag > p {
+        font-size: 14px; 
+        color: hsl(333, 80%, 67%);
+        font-family: 'Spartan'; 
+        margin-top: 8px;  
+    }
+
+    .card_desc > p {
+        font-size: 12px;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 0px;
+        font-family: 'Spartan';
+        line-height: 1.8;
+    }
+}
