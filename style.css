@@ -5,7 +5,7 @@
 
 body {
     background: top -40vh left -40vw / 100% url(images/bg-pattern-top-desktop.svg) no-repeat,
-                bottom -40vh right -40vw / 100% url(images/bg-pattern-bottom-desktop.svg) no-repeat;
+                bottom 10vh right -40vw / 100% url(images/bg-pattern-bottom-desktop.svg) no-repeat;
 }
 
 main {
