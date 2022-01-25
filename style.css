@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    background: top -40vh left -40vw / 100% url(images/bg-pattern-top-desktop.svg) no-repeat,
+                bottom -40vh right -40vw / 100% url(images/bg-pattern-bottom-desktop.svg) no-repeat;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -141,6 +146,11 @@ h2 {
 
 
 @media screen and (max-width: 680px) {
+
+    body {
+        background: top -20vh left -20vw / 100% url(images/bg-pattern-top-mobile.svg) no-repeat,
+                    bottom -70vh right -5vw / 100% url(images/bg-pattern-bottom-mobile.svg) no-repeat;
+    }
 
     main {
         max-width: 350px;
